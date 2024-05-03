@@ -1,69 +1,7 @@
-cloud_transform_dbt:
-  outputs:
-    dev:
-      account: th58624.east-us-2.azure
-      database: ANALYTICS_DEV
-      password: Rassman123
-      role: TRANSFORM_ROLE
-      schema: DBT_SBROWN
-      threads: 4
-      type: snowflake
-      user: TRANSFORM_USER
-      warehouse: TRANSFORM_WH
-    prod:
-      account: th58624.east-us-2.azure
-      database: ANALYTICS
-      password: Rassman123
-      role: TRANSFORM_ROLE
-      schema: DBT_SBROWN
-      threads: 4
-      type: snowflake
-      user: TRANSFORM_USER
-      warehouse: TRANSFORM_WH
-  target: dev
-dbtSnowflake_Healthcare:
-  outputs:
-    dev:
-      account: shxnusq-bbb65355
-      database: HEALTH_DATA_DEV
-      password: '@Password78!'
-      role: ACCOUNTADMIN
-      schema: DBT_HEALTH
-      threads: 1
-      type: snowflake
-      user: rayboy
-      warehouse: COMPUTE_WH
-  target: dev
-dbt_claims:
-  outputs:
-    dev:
-      account: shxnusq-bbb65355
-      database: claims_analytics
-      password: OneBlood123
-      role: developer
-      schema: dbt_brown
-      threads: 4
-      type: snowflake
-      user: transform_user
-      warehouse: healthcare_wh
-  target: dev
-dbt_health:
-  outputs:
-    dev:
-      account: shxnusq-bbb65355
-      database: HEALTHCARE_DEV
-      password: OneBlood123
-      role: DEVELOPER
-      schema: dbt_sjbrown
-      threads: 2
-      type: snowflake
-      user: TRANSFORM_USER
-      warehouse: HEALTHCARE_WH
-  target: dev
 dbt_retail:
   outputs:
     dev:
-      account: shxnusq-bbb65355
+      account: xub44819.us-east-1
       database: RETAIL_DEV
       password: OneBlood123
       role: DEVELOPER
