@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_retail__addresses
+  - name: stg_retail__cities
+  - name: stg_retail__countries
+  - name: stg_retail__customers
+  - name: stg_retail__employees
+  - name: stg_retail__order_lines
+  - name: stg_retail__package_types
+  - name: stg_retail__payment_types
+  - name: stg_retail__product_categories
+  - name: stg_retail__product_departments
+  - name: stg_retail__product_subcategories
+  - name: stg_retail__products
+  - name: stg_retail__promotions
+  - name: stg_retail__provinces
+  - name: stg_retail__units_of_measure

@@ -1,0 +1,4 @@
+----------------------------- FOR THE TERMINAL DO NOT ADD-------------------------------
+ls | awk '{print "- name: " $0}'
+ls | sed "s/^/* \`/; s/$/\`/" 
+ls | awk '{print "* `" $0 "`"}'
