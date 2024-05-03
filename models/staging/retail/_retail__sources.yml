@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: retail
+    database: retail_raw
+    schema: retail
+    tables:
+      - name: addresses
+      - name: customers
+      - name: orderlines
+      - name: provinces
+      - name: products
+      - name: cities
+      - name: countries
+      - name: paymenttypes
+      - name: promotions
+      - name: packagetypes
+      - name: employees
+      - name: productcategories
+      - name: unitsofmeasure
+      - name: productdepartments
+      - name: productsubcategories
