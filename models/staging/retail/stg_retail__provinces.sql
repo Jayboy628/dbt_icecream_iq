@@ -10,12 +10,12 @@ provinces as (
 
 final as (
 
-	SELECT [ProvinceID]		AS provinceid
-	      ,[ProvinceCode]	AS province_code
-	      ,[ProvinceName]	AS province_name
-	      ,[CountryID]		AS countryid
-	      ,[Population]		AS population
-	      ,[ModifiedDate]	AS modified_date
+	SELECT ProvinceID		AS provinceid
+	      ,ProvinceCode		AS province_code
+	      ,ProvinceName		AS province_name
+	      ,CountryID		AS countryid
+	      ,Population		AS population
+	      ,ModifiedDate		AS modified_date
 	 FROM provinces
 )
 

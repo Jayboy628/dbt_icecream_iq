@@ -20,3 +20,4 @@ sources:
       - name: unitsofmeasure
       - name: productdepartments
       - name: productsubcategories
+      - name: orders
