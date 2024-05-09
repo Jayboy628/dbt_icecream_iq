@@ -9,11 +9,11 @@ product_categories as (
 
 final as (
 
-	SELECT [CategoryID] 			AS categoryid
-	      ,[CategoryName]			AS category_name
-	      ,[CategoryDescription]	AS category_description
-	      ,[DepartmentID]			AS departmentid
-	      ,[ModifiedDate]			AS modified_date
+	SELECT CategoryID 			AS categoryid
+	      ,CategoryName			AS category_name
+	      ,CategoryDescription	AS category_description
+	      ,DepartmentID			AS departmentid
+	      ,ModifiedDate			AS modified_date
 	  FROM product_categories
 )
 

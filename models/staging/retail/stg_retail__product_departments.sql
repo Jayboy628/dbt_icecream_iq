@@ -9,10 +9,10 @@ product_departments as (
 
 final as (
 
-	SELECT [DepartmentID]	AS departmentid
-	      ,[Name]			AS name
-	      ,[Description]	AS description
-	      ,[ModifiedDate]	AS modified_date
+	SELECT DepartmentID	AS departmentid
+	      ,Name			AS name
+	      ,Description	AS description
+	      ,ModifiedDate	AS modified_date
 	FROM product_departments
 )
 

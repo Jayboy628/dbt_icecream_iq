@@ -8,12 +8,12 @@ addresses as (
 
 final as (
 
-	SELECT [AddressID] AS addressid
-	      ,[AddressLine1] AS address_line1
-	      ,[AddressLine2] AS address_line2
-	      ,[CityID] AS cityid
-	      ,[PostalCode] AS postal_code
-	      ,[ModifiedDate]AS modified_date
+	SELECT AddressID AS addressid
+	      ,AddressLine1 AS address_line1
+	      ,AddressLine2 AS address_line2
+	      ,CityID AS cityid
+	      ,PostalCode AS postal_code
+	      ,ModifiedDate AS modified_date
 	  FROM addresses
 
 )

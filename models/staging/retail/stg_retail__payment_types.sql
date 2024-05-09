@@ -9,9 +9,9 @@ payment_types as (
 
 final as (
 
-	SELECT [PaymentTypeID] 		AS payment_typeid
-	      ,[PaymentTypeName]	AS payment_type_name
-	      ,[ModifiedDate]		AS modified_date
+	SELECT PaymentTypeID 	AS payment_typeid
+	      ,PaymentTypeName	AS payment_type_name
+	      ,ModifiedDate		AS modified_date
 	FROM payment_types
 )
 

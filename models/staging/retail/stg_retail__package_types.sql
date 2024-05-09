@@ -9,9 +9,9 @@ package_types as (
 
 final as (
 
-	SELECT [PackageTypeID] 		AS package_typeid
-	      ,[PackageTypeName]	AS package_type_name
-	      ,[ModifiedDate]		AS modified_date
+	SELECT PackageTypeID 	AS package_typeid
+	      ,PackageTypeName	AS package_type_name
+	      ,ModifiedDate		AS modified_date
 	  FROM package_types
 )
 
