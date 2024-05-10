@@ -30,7 +30,7 @@ The primary goals of the IceCreamIQ project are:
 	- Deliver fast query performance
 	
 - **Elements of Dimensional Model**
-	- Facts: The measurements/metrics or fact from your business process)
+	- Facts: The measurements/metrics or fact from your business process
 	- Dimensions: For providing the context of a business process event
 	- Attributes: Various characteristics of a dimension
 	- Star Schema: Sales
@@ -86,17 +86,17 @@ The primary goals of the IceCreamIQ project are:
 - **Why**: The success of products could be attributed to factors such as taste, marketing, seasonal demand, and customer preferences.
 
 By leveraging these technologies and best practices, Soca Ice Cream aims to build a modern and efficient data infrastructure that empowers its team to make informed decisions and drive business growth.
-##### Getting Started
+##### Getting Started: Make sure you have the following
 - **Step 1: Local Develoment Stack**
-	- Git: A open source distrbuted version control system
-	- Python: DBT is a python project
-	- Code Editor: VSCODE
+	- Python: 
+	- Code Editor: https://code.visualstudio.com/
 
-- **step 2 Hosted paltforms:**
-	- Airlow
-	- Github
-	- Snowflake
-**step 1:**
+- **Step 2 Hosted paltforms:**
+	- Airlow: https://airflow.apache.org/docs/
+	- Github: https://github.com/
+	- DBT: https://www.getdbt.com/
+	- Snowflake: https://www.snowflake.com/
+
 
 - **To get started with dbt please click the link** https://github.com/Jayboy628/dbt_claims_report/tree/main
 
@@ -104,13 +104,43 @@ By leveraging these technologies and best practices, Soca Ice Cream aims to buil
 ### Data Sources
 
 - **POS**: Internal company database Sql Server 2019.
-- **payment_app**: Third-party payment processing application.
+	- **Database**: SocaIceCream.
+		- **Tables**:
+			- Addresses
+				- Cities
+				- Countries
+				- Customers
+				- Employees
+				- Ingredients
+				- InventoryItems
+				- InventoryTransactions
+				- OrderLines
+				- Orders
+				- PackageTypes
+				- PaymentTypes
+				- ProductCategories
+				- ProductDepartments
+				- Products
+				- ProductSubcategories
+				- Promotions
+				- Provinces
+				- Recipes
+				- Stores
+				- UnitsOfMeasure
 
 ### Target Environments
 
-- **Development**: Schema: `DBT_JDOE` (One per developer)
-- **Production**: Schema: `STAGING` (1:1 with each source-system table), `MARTS` (Fully transformed and joined models)
+- **Development**: Schema: `DBT_SBROWN` (One per developer)
 
+- **Production**: Schema:
+ `STAGING` (1:1 with each source-system table) 
+ 
+ `MARTS` (Fully transformed and joined models)
+
+### Visualization Environments
+
+- **Data Visualization with Tableau**:
+	- **To get started with Tableau please click the link: https://github.com/Jayboy628/tableau_soca_icecream
 
 ### Contributors
 
