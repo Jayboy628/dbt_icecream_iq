@@ -98,7 +98,7 @@ By leveraging these technologies and best practices, Soca Ice Cream aims to buil
 	- Snowflake: https://www.snowflake.com/
 
 
-- **To get started with dbt please click the link** https://github.com/Jayboy628/dbt_claims_report/tree/main
+- **I have created an installation guide for getting started with dbt. You can find the project on GitHub at ** https://github.com/Jayboy628/dbt_claims_report/tree/main
 
 
 ### Data Sources
@@ -132,15 +132,17 @@ By leveraging these technologies and best practices, Soca Ice Cream aims to buil
 
 - **Development**: Schema: `DBT_SBROWN` (One per developer)
 
-- **Production**: Schema:
- `STAGING` (1:1 with each source-system table) 
- 
- `MARTS` (Fully transformed and joined models)
+- `STAGING` (1:1 with each source-system table)
+	![DBT Stage](images/Stage.png)
+
+
+- `MARTS` (Fully transformed and joined models)
+
 
 ### Visualization Environments
 
 - **Data Visualization with Tableau**:
-	- **To get started with Tableau please click the link: https://github.com/Jayboy628/tableau_soca_icecream
+	- **To get started with Tableau part of the project please click on this link**: https://github.com/Jayboy628/tableau_soca_icecream
 
 ### Contributors
 

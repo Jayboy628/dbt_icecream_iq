@@ -2,3 +2,5 @@
 ls | awk '{print "- name: " $0}'
 ls | sed "s/^/* \`/; s/$/\`/" 
 ls | awk '{print "* `" $0 "`"}'
+
+dbt docs serve --port 8087
