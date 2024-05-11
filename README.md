@@ -98,7 +98,7 @@ By leveraging these technologies and best practices, Soca Ice Cream aims to buil
 	- Snowflake: https://www.snowflake.com/
 
 
-- **I have created an installation guide for getting started with dbt. You can find the project on GitHub at ** https://github.com/Jayboy628/dbt_claims_report/tree/main
+- **I have created an installation guide for getting started with dbt. You can find the project on GitHub at** https://github.com/Jayboy628/dbt_claims_report/tree/main
 
 
 ### Data Sources
@@ -137,6 +137,7 @@ By leveraging these technologies and best practices, Soca Ice Cream aims to buil
 
 
 - `MARTS` (Fully transformed and joined models)
+	![DBT Stage](images/Marts.png)
 
 
 ### Visualization Environments
