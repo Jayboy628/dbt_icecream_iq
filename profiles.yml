@@ -1,9 +1,9 @@
 dbt_retail:
   outputs:
     dev:
-      account: xub44819.us-east-1
+      account
       database: RETAIL_DEV
-      password: OneBlood123
+      password:
       role: DEVELOPER
       schema: DBT_SBROWN
       threads: 1
